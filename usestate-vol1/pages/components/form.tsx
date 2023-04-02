@@ -7,8 +7,8 @@ type Props = {
 const Form = (props:Props) => {
   return (
     <>
-      <h1>{props.title}</h1>
-      <div>{props.value}</div>
+      <h1 className="text-2xl">{props.title}</h1>
+      <div className="m-4 bg-white">{props.value}</div>
     </>
   )
 }

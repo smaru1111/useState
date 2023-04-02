@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <>
-      <div className="">
+      <div className="container font-mono mx-auto my-0">
         <Form title={"計算式"} value={smplInput}/>
         <Form title={"結果"} value={smplAns}/>
       </div>
